@@ -1,0 +1,34 @@
+{
+  "name": "centaure",
+  "version": "1.0.0",
+  "description": "mongoose-like sql ORM",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvansea/centaure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvansea/centaure/issues"
+  },
+  "homepage": "https://github.com/Alvansea/centaure#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^7.2.0",
+    "knex": "^0.95.11",
+    "mysql2": "^2.3.0",
+    "objection": "^2.2.17",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4"
+  }
+}
